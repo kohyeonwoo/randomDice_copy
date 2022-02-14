@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4481e29352a4c4f499b0d5ec061a34ab, type: 3}
+  m_Name: TheDice
+  m_EditorClassIdentifier: 
+  diceDatas:
+  - code: 0
+    sprite: {fileID: 21300000, guid: 398fa07ce0cb5b8468a5365e811c8eef, type: 3}
+    color: {r: 1, g: 0, b: 0, a: 1}
+    basicAttackDamage: 3
+  - code: 1
+    sprite: {fileID: 21300000, guid: 6c283ce677f37324f8a5ec06ee68c6c0, type: 3}
+    color: {r: 1, g: 0.76408356, b: 0, a: 1}
+    basicAttackDamage: 4
+  - code: 2
+    sprite: {fileID: 21300000, guid: 5f07df2b711fbf44b8eb694029e3833e, type: 3}
+    color: {r: 0, g: 1, b: 0.8140888, a: 1}
+    basicAttackDamage: 5
+  - code: 3
+    sprite: {fileID: 21300000, guid: 9798e13cff369d943a2de9e91f3bcf0c, type: 3}
+    color: {r: 0.36923873, g: 1, b: 0, a: 1}
+    basicAttackDamage: 6
+  - code: 4
+    sprite: {fileID: 21300000, guid: 69f95f25e6105304c99151c31798db1b, type: 3}
+    color: {r: 0, g: 0.69129777, b: 1, a: 1}
+    basicAttackDamage: 7
+  - code: 5
+    sprite: {fileID: 21300000, guid: c1c3ac235ae990148b3e545638be21f3, type: 3}
+    color: {r: 0.49056602, g: 0.47899607, b: 0.47899607, a: 1}
+    basicAttackDamage: 8
+  - code: 6
+    sprite: {fileID: 21300000, guid: 28cf94cc090d8f44387aba8896d62e59, type: 3}
+    color: {r: 0.88594866, g: 0, b: 1, a: 1}
+    basicAttackDamage: 9
+  - code: 7
+    sprite: {fileID: 21300000, guid: b66243d032c47434094d10f10d0ef847, type: 3}
+    color: {r: 1, g: 0, b: 0.9685755, a: 1}
+    basicAttackDamage: 10
+  - code: 8
+    sprite: {fileID: 21300000, guid: 2e14c40ab0c9f444ca5fa79e261c8dfb, type: 3}
+    color: {r: 0, g: 1, b: 0.78989506, a: 1}
+    basicAttackDamage: 11
+  - code: 9
+    sprite: {fileID: 21300000, guid: 4667580e13255b448b4a8a1f281b27e7, type: 3}
+    color: {r: 1, g: 0.5560394, b: 0, a: 1}
+    basicAttackDamage: 12
+  originDicePositions: []
